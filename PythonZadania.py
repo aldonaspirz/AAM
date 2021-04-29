@@ -17,3 +17,10 @@ poleOkregu(10)
 # b = 20
 # • Pole kwadratu 1 o ramieniu b.
 # • Obwod kwadratu 1 o ramieniu b
+
+def kwadrat(b):
+    pole=b*b
+    obwod=4*b
+    print(pole,obwod)
+
+kwadrat(20)
