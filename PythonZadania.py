@@ -24,3 +24,10 @@ def kwadrat(b):
     print(pole,obwod)
 
 kwadrat(20)
+
+# Oblicz wartosci x1 oraz x2 dla wielomianu 
+# f(x) = 4x2 − 2x − 5
+import numpy as np
+coeff = [4,2,-5]
+np.roots(coeff)
+print(np.roots(coeff))
