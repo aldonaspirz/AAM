@@ -5,10 +5,15 @@
 import math
 def poleOkregu(a):
     pole=a*a*math.pi
+    obwod=a*2*math.pi
     print(pole)
+    print(obwod)
 
 
 poleOkregu(10)
 
 
 
+# b = 20
+# • Pole kwadratu 1 o ramieniu b.
+# • Obwod kwadratu 1 o ramieniu b
