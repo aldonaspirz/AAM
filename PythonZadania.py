@@ -8,18 +8,19 @@ import numpy as np
 
 
 
-def poleOkregu(a):
+def pole_okregu(a):
     pole=a*a*math.pi
     return pole
     
 
-def obwodOkregu(a):
+def obwod_okregu(a):
     obwod=a*2*math.pi
     return obwod
-pole1=poleOkregu(10)
-print(pole1)
-obwod1=obwodOkregu(10)
-print(obwod1)
+pole1=pole_okregu(10)
+obwod1=obwod_okregu(10)
+print(pole1,obwod1)
+
+
 
 
 
@@ -28,18 +29,17 @@ print(obwod1)
 # • Pole kwadratu 1 o ramieniu b.
 # • Obwod kwadratu 1 o ramieniu b
 
-def polekwadrat(b):
+def pole_kwadrat(b):
     pole=b*b
     return pole
 
-def obwodkwadrat(b):
+def obwod_kwadrat(b):
     obwod=4*b
     return obwod
 
-asd = polekwadrat(20)
-print(asd)
-asd2= obwodkwadrat(20)
-print(asd2)
+asd = pole_kwadrat(20)
+asd2= obwod_kwadrat(20)
+print(asd,asd2)
 
 # kwadrat(20)
 
