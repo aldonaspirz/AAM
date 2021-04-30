@@ -30,14 +30,17 @@ def obwodkwadrat(b):
     obwod=4*b
     return obwod
 
-print(polekwadrat(20))
-print(obwodkwadrat(20))
+asd = polekwadrat(20)
+print(asd)
+asd2= obwodkwadrat(20)
+print(asd2)
 
 # kwadrat(20)
 
 # # Oblicz wartosci x1 oraz x2 dla wielomianu 
 # # f(x) = 4x2 − 2x − 5
-# import numpy as np
-# coeff = [4,2,-5]
-# np.roots(coeff)
-# print(np.roots(coeff))
+import numpy as np
+coeff = [4,2,-5]
+x=[]
+x=np.roots(coeff)
+print('x1=', x[0], 'x2=', x[1])
