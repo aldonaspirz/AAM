@@ -43,10 +43,26 @@ def iteracja_3(zmienna):
 
         return words[-5:-1]
 
+def iteracja_4(zmienna):
+    for i in zmienna:
+        words=[]
+       
+
+        for j in i:
+            
+            words.append(j)
+        
+        
+
+        return words[0:4]
+
+
+
 
 wynik=iteracja(['konstantynopolitańczykowianeczka'])
 wynik_1=iteracja_1(['konstantynopolitańczykowianeczka'])
 wynik_2=iteracja_2(['konstantynopolitańczykowianeczka'])
 wynik_3=iteracja_3(['konstantynopolitańczykowianeczka'])
+wynik_4=iteracja_4(['konstantynopolitańczykowianeczka'])
 
-print(wynik, wynik_1, wynik_2,wynik_3)
+print(wynik, wynik_1, wynik_2,wynik_3, wynik_4)
