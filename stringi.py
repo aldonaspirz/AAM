@@ -30,9 +30,23 @@ def iteracja_2(zmienna):
 
         return words[int(a/2)]
 
+def iteracja_3(zmienna):
+    for i in zmienna:
+        words=[]
+       
+
+        for j in i:
+            
+            words.append(j)
+        
+        
+
+        return words[-5:-1]
+
 
 wynik=iteracja(['konstantynopolitańczykowianeczka'])
 wynik_1=iteracja_1(['konstantynopolitańczykowianeczka'])
 wynik_2=iteracja_2(['konstantynopolitańczykowianeczka'])
+wynik_3=iteracja_3(['konstantynopolitańczykowianeczka'])
 
-print(wynik, wynik_1, wynik_2)
+print(wynik, wynik_1, wynik_2,wynik_3)
