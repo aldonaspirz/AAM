@@ -5,12 +5,16 @@
 import math
 def poleOkregu(a):
     pole=a*a*math.pi
+    return pole
+    
+
+def obwodOkregu(a):
     obwod=a*2*math.pi
-    print(pole)
-    print(obwod)
+    return obwod
 
+print(poleOkregu(10))
+print(obwodOkregu(10))
 
-poleOkregu(10)
 
 
 
@@ -18,16 +22,22 @@ poleOkregu(10)
 # • Pole kwadratu 1 o ramieniu b.
 # • Obwod kwadratu 1 o ramieniu b
 
-def kwadrat(b):
+def polekwadrat(b):
     pole=b*b
+    return pole
+
+def obwodkwadrat(b):
     obwod=4*b
-    print(pole,obwod)
+    return obwod
 
-kwadrat(20)
+print(polekwadrat(20))
+print(obwodkwadrat(20))
 
-# Oblicz wartosci x1 oraz x2 dla wielomianu 
-# f(x) = 4x2 − 2x − 5
-import numpy as np
-coeff = [4,2,-5]
-np.roots(coeff)
-print(np.roots(coeff))
+# kwadrat(20)
+
+# # Oblicz wartosci x1 oraz x2 dla wielomianu 
+# # f(x) = 4x2 − 2x − 5
+# import numpy as np
+# coeff = [4,2,-5]
+# np.roots(coeff)
+# print(np.roots(coeff))
