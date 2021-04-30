@@ -11,9 +11,10 @@ def poleOkregu(a):
 def obwodOkregu(a):
     obwod=a*2*math.pi
     return obwod
-
-print(poleOkregu(10))
-print(obwodOkregu(10))
+pole1=poleOkregu(10)
+print(pole1)
+obwod1=obwodOkregu(10)
+print(obwod1)
 
 
 
