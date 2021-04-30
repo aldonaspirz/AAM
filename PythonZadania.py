@@ -48,6 +48,6 @@ print(asd,asd2)
 
 
 coeff = [4,2,-5]
-x=[]
+
 x=np.roots(coeff)
 print('x1=', x[0], 'x2=', x[1])
