@@ -17,4 +17,10 @@ A = [replacements.get(x, x) for x in A]
 
 # Usun liczby ktore sa miedzy literami
 
+
+# Stworz 5-elementową liste ktora zawiera dowolne litery.
+import string
+import random
+B=[]
+B.extend()
 print(A)
