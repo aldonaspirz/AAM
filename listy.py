@@ -16,11 +16,32 @@ replacements = {
 A = [replacements.get(x, x) for x in A]
 
 # Usun liczby ktore sa miedzy literami
+def zadanie6(zmienna):
+    list=[]
+    for i in zmienna:
+        
+        if type(i) is str:
+            list.append(i)
+    return list
 
+wynik6=zadanie6(A)
+print(wynik6)
 
 # Stworz 5-elementową liste ktora zawiera dowolne litery.
 import string
 import random
-B=[]
-B.extend()
-print(A)
+def zadanie7():
+    list=[]
+    for i in range(5):
+        random_letter = random.choice(string.ascii_letters)
+        list.append(random_letter)
+        
+    return list
+wynik7=zadanie7()
+print(wynik7)
+lista_new=[]
+wynik7.reverse()
+lista_new=wynik7
+print(lista_new)
+
+
