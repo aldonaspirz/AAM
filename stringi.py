@@ -1,3 +1,6 @@
+# Zdefiniuj zmienna ze slowem ’konstantynopolitańczykowianeczka’ oraz do nowych zmiennych
+# przypisz następujące rzeczy:
+
 # 1. pierwsza literę.
 def iteracja(zmienna):
     for i in zmienna:
