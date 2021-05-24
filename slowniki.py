@@ -37,3 +37,13 @@ wyniki8=raitings(bezalko)
 print(wyniki8)
 
 # 9. Stworz słownik który będzie zawierał wszystkie listy z ćwiczenia nr 3.
+# k a a eczk kons ańczykowiane konsczka KONSTANTYNOPOLITAŃCZYKOWIANECZKA KONSCZKA
+def stringi():
+    klucze=range(0,8)
+    wartosci=['k', 'a' , 'a' , 'eczk', 'kons' ,'ańczykowiane' ,'konsczka', 'KONSTANTYNOPOLITAŃCZYKOWIANECZKA' ,'KONSCZKA']
+    
+    zip_iterator = zip(klucze, wartosci)
+    nowy_s=dict(zip_iterator)
+    return nowy_s
+wyniki9=stringi()
+print(wyniki9)
