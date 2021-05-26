@@ -26,7 +26,12 @@ for i in slownik.items():
     print(i)
 
 # 6. Stwórz pętle tylko wartościach w słowniku.
-for i in slownik:
+for key,value in slownik.items():
+    print(value)
+    
     
 
 # 7. Stwórz pętle która iteruje po kluczach i wartościach jednoczesnie i wyświetl oba.
+
+for key, value in slownik.items():
+    print(,key ,value)
