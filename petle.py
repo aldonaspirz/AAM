@@ -1,20 +1,20 @@
 # 1. Stwórz pętle po elementach listy nr 4 oraz wyświetl każdy z nich.
 #  4. Stwórz pętle po kluczach słownika nr 2. i wyświetl każdy z kluczy.
-from typing import ValuesView
+
 
 
 lista=['cola', 'fanta', 'lemoniada', 'orange juice', 'pepsi', 'pinapple juice', 'piwo', 'piwo bezalkoholowe', 'rum', 'sok porzeczkowy', 'sprite', 'whiskey', 'wino biale', 'wino czerwone', 'woda', 'woda gazowana']
 for i in lista:
     print(i)
 # 2. Stwórz pętle po posortowanych elementach listy nr 4 i wyświetl je po kolei
+lista.sort()
 for i in lista:
-    lista.sort()
+    
     print(i)
 
 # 3. Wyświetlając elementy z pkt. 2 wyświetl jego index.
-for i in lista:
-    indeks= lista.index(i)
-    print(i,indeks)  
+    for i,v in enumerate(lista):
+        print('zadanie 3',i,v)  
 
 #  4. Stwórz pętle po kluczach słownika nr 2. i wyświetl każdy z kluczy.
 # patrz zadanie nr 1    
@@ -34,4 +34,13 @@ for key,value in slownik.items():
 # 7. Stwórz pętle która iteruje po kluczach i wartościach jednoczesnie i wyświetl oba.
 
 for key, value in slownik.items():
-    print(,key ,value)
+    print(key ,value)
+
+for key in slownik:
+    print('przykład 1:',key)
+
+for key in slownik.items():
+    print('przykład 2:',key)
+
+for key in slownik.values():
+    print('przykład 3:',key)
