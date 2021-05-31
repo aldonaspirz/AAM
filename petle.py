@@ -13,8 +13,8 @@ for i in lista:
     print(i)
 
 # 3. Wyświetlając elementy z pkt. 2 wyświetl jego index.
-    for i,v in enumerate(lista):
-        print('zadanie 3',i,v)  
+for i,v in enumerate(lista):
+    print('zadanie 3',i,v)  
 
 #  4. Stwórz pętle po kluczach słownika nr 2. i wyświetl każdy z kluczy.
 # patrz zadanie nr 1    
