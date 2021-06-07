@@ -22,8 +22,8 @@ for i,v in enumerate(lista):
 # 5. Stwórz pętle po kluczach słownika nr 2. i wyświetl każdy z kluczy oraz odpowiadającą
 # mu wartość.
 slownik={'woda': 10, 'cola': 9, 'orange juice': 8, 'lemoniada': 7, 'woda gazowana': 6, 'fanta': 5, 'sprite': 4, 'pinapple juice': 3, 'piwo bezalkoholowe': 2, 'sok porzeczkowy': 1, 'pepsi': 0, 'piwo': 10, 'wino czerwone': 9, 'wino biale': 8, 'whiskey': 7, 'rum': 6}
-for i in slownik.items():
-    print(i)
+for i in slownik:
+    print(i, slownik[i])
 
 # 6. Stwórz pętle tylko wartościach w słowniku.
 for key,value in slownik.items():
