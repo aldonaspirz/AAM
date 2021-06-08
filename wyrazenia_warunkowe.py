@@ -13,18 +13,21 @@ co_druga=dictlist[::2]
 print('zadanie 1',co_druga)
 
 # 2. Stwórz pętle po kluczach słownika nr 2. i wyświetl tylko te krótsze niż 5 liter - inne pomiń.
-for key, value in slownik.items():
-    if len(key)<5:
-        print(key)
+for key, value in enumerate(slownik):
+    print(value)
+    if len(value)<5:
+        print(value)
 
 # 3. Wyświetl co drugi klucz dłuższy niż 5 liter
 list5=[]
-for k,v in enumerate(slownik):
-    
-    if len(k)>5:
+for key,value in enumerate(slownik):
+    print(key)
+    if len(value)>5:
         
-        print('zadanie 3', slownik[k])
+        list5.append(value)
+co_druga=list5[::2]
 
+print('zadanie 3',co_druga)
 # Wyświetl ratingi większe niż 4
 for key, value in slownik.items():
     if value>5:
